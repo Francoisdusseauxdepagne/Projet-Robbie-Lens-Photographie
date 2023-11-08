@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <title>Robbie Lens Photographie</title>
+</head>
+
+<body>
+    <header>
+        <nav> 
+                <img src="images/logo.png" alt="logo de robbie lens">
+            <div class="lien">
+                <a href="INDEX.HTML">Accueil</a>
+                <a href="a-propos.HTML">A propos</a>
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="accueil-introduction">
+            <div class="contenuText">
+                <h1>Robbie Lens photographie</h1>
+
+                    <p>Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis plus de 5 ans maintenant, j’exerce mon métier avec la passion
+                        qui m’anime : capturer l’essence de chaque instant.</p>
+
+                    <a class="cta" href="#contact">Un projet ? Écrivez-moi</a>
+            </div>
+            <div class="imageSection">
+                    <img src="images/robbie-lens.png" alt="photo de robbie lens" title="photo de robbie lens avec effet">
+            </div>      
+        </section>
+
+        <section class="accueil-photos">
+            <h2>Mon dernier projet</h2>
+                <div>
+                    <img src="images/accueil/element-1.png" alt="paysage1">
+                    <img src="images/accueil/element-2.png" alt="paysage2">
+                    <img src="images/accueil/element-3.png" alt="paysage3">
+                </div>
+                <div>
+                    <img src="images/accueil/element-4.png" alt="paysage4">
+                    <img src="images/accueil/element-5.png" alt="paysage5">
+                    <img src="images/accueil/element-6.png" alt="paysage6">
+                </div>
+        </section> 
+        <section class="section-contact" id="contact">
+            <h2>Parlons de votre projet</h2>
+                <form action="" method="get">
+                    <div class="nom-email">
+                        <div class="Nom">
+                            <Label for="Nom">Votre Nom</Label>
+                            <input type="text" name="Nom" id="Nom" required>
+                        </div>
+                        <div class="email">
+                            <Label for="email">Votre Email</Label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                    </div>
+
+                    <label for="Message">Message</label>
+                    <textarea name="Message" id="Message" rows="10" required></textarea>
+
+                    <input type="submit" name="Envoyer" id="Envoyer" class="bouton">
+                </form>
+        </section>
+    </main>
+
+    <footer>
+            <img src="images/logo.png" alt="logo de robbie lens">
+
+        <div>
+            <a target="_blank" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZnIifQ%3D%3D%22%7D">
+                <img src="images/twitter.png" alt="Logo de twitter" title="twitter" class="lien-icone"></a>
+
+            <a target="_blank" href="https://www.instagram.com/">
+                <img src="images/instagram.png" alt="Logo d'instagram" title="instagram" class="lien-icone"></a>
+        </div>
+    </footer>     
+
+</body>
+</html>
